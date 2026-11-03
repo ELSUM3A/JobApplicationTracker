@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_tawjehSprint1", "Project_tawjehSprint1.csproj", "{51CB0BED-AB25-4766-9EC2-46530C957EC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{47A0AFFB-788C-4838-9655-560D0FA0348D}"
+	ProjectSection(SolutionItems) = preProject
+		IEntity.cs = IEntity.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsPractice", "..\CollectionsPractice\CollectionsPractice.csproj", "{01A37453-2481-498C-82C5-F1720FFF5567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{51CB0BED-AB25-4766-9EC2-46530C957EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51CB0BED-AB25-4766-9EC2-46530C957EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51CB0BED-AB25-4766-9EC2-46530C957EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A37453-2481-498C-82C5-F1720FFF5567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A37453-2481-498C-82C5-F1720FFF5567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A37453-2481-498C-82C5-F1720FFF5567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A37453-2481-498C-82C5-F1720FFF5567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
